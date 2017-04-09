@@ -1,4 +1,6 @@
+
 def my_reverse(str)
+	#binding.pry
 	#reversed array
 	r_array = []
 	#string to array
@@ -11,4 +13,5 @@ def my_reverse(str)
 	r_array.join("")
 end
 
-puts my_reverse("hello")
+
+puts my_reverse("Hello nurse!")
